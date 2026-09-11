@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="SafeBox RD — almacenamiento temporal seguro para tus pertenencias mientras estás fuera del país.">
+<title>SafeBox RD | Tu espacio seguro mientras estás fuera</title>
+<style>
+:root{--navy:#062b52;--blue:#0b5fa5;--yellow:#ffd21c;--light:#f4f8fc;--text:#10243a;--muted:#64748b;--white:#fff;--shadow:0 12px 35px rgba(5,38,72,.12)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--text);background:#fff}a{text-decoration:none;color:inherit}
+.container{width:min(1180px,92%);margin:auto}.nav{position:sticky;top:0;z-index:20;background:rgba(6,43,82,.97);color:#fff}.navin{height:76px;display:flex;align-items:center;justify-content:space-between;gap:25px}.brand{display:flex;align-items:center;gap:11px;font-weight:800;font-size:28px}.brandmark{width:44px;height:44px;border-radius:12px;background:var(--yellow);display:grid;place-items:center;color:var(--navy);font-size:22px}.brand small{display:block;font-size:10px;font-weight:500;opacity:.85;margin-top:1px}.brand span{color:var(--yellow)}.links{display:flex;gap:24px;font-weight:700;font-size:14px}.links a:hover{color:var(--yellow)}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;border:0;border-radius:999px;padding:15px 22px;font-weight:800;cursor:pointer}.btn-yellow{background:var(--yellow);color:var(--navy)}.btn-outline{border:1.5px solid #fff;color:#fff;background:transparent}.hero{background:linear-gradient(115deg,#062b52 0%,#0a4e87 52%,#082746 100%);color:#fff;padding:76px 0 70px;overflow:hidden}.hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:45px;align-items:center}.eyebrow{color:var(--yellow);font-weight:800;letter-spacing:1px}.hero h1{font-size:clamp(38px,5vw,64px);line-height:1.02;margin:14px 0 20px}.hero h1 span{color:var(--yellow)}.hero p{font-size:20px;line-height:1.55;max-width:650px;color:#e6f0fa}.hero-actions{display:flex;gap:14px;flex-wrap:wrap;margin:28px 0}.hero-card{min-height:370px;border-radius:28px;background:linear-gradient(145deg,rgba(255,255,255,.12),rgba(255,255,255,.03));border:1px solid rgba(255,255,255,.18);display:flex;align-items:end;padding:28px;box-shadow:var(--shadow);position:relative;overflow:hidden}.hero-card:before{content:"✈️";font-size:120px;position:absolute;top:55px;left:45px;opacity:.22}.hero-card:after{content:"📦  🔐  🧳";font-size:52px;position:absolute;right:28px;bottom:95px;letter-spacing:14px}.hero-note{position:relative;z-index:1;font-size:28px;font-weight:800;max-width:390px}.trust{background:#fff;padding:28px 0}.trust-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:18px;text-align:center}.trust-item{padding:15px}.icon{width:52px;height:52px;border-radius:50%;background:#e8f3fc;color:var(--blue);display:grid;place-items:center;margin:0 auto 10px;font-size:24px}.trust b{display:block}.trust small{color:var(--muted);line-height:1.4}.section{padding:75px 0}.section.alt{background:var(--light)}.section h2{font-size:40px;margin:0 0 10px}.lead{color:var(--muted);font-size:18px}.plans{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;margin-top:35px}.plan{background:#fff;border:1px solid #dce7f1;border-radius:20px;padding:24px;box-shadow:0 8px 25px rgba(5,38,72,.06);position:relative}.plan.popular{border:2px solid var(--yellow);transform:translateY(-7px)}.badge{position:absolute;top:-14px;left:20px;background:var(--yellow);padding:6px 12px;border-radius:999px;font-size:12px;font-weight:900}.plan h3{margin:0 0 8px;font-size:22px}.price{font-size:30px;font-weight:900;color:var(--navy)}.price small{font-size:13px;color:var(--muted);font-weight:600}.plan p{min-height:58px;color:var(--muted);font-size:14px;line-height:1.45}.plan ul{padding:0;list-style:none;color:#334155;font-size:13px;line-height:2}.plan li:before{content:"✓";color:#159447;font-weight:900;margin-right:7px}.plan .btn{width:100%;padding:12px;margin-top:8px}.steps{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-top:40px}.step{text-align:center;padding:10px}.num{width:44px;height:44px;border-radius:50%;background:var(--navy);color:#fff;display:grid;place-items:center;margin:0 auto 12px;font-weight:900}.step h3{margin:8px 0}.step p{color:var(--muted);font-size:14px;line-height:1.45}.contact{background:var(--navy);color:#fff}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:start}.contact h2{color:#fff}.form{background:#fff;border-radius:24px;padding:28px;color:var(--text);box-shadow:var(--shadow)}label{display:block;font-weight:700;font-size:13px;margin:14px 0 6px}input,select,textarea{width:100%;padding:13px 14px;border:1px solid #d5e0ea;border-radius:10px;font:inherit}textarea{min-height:100px;resize:vertical}.form .btn{width:100%;margin-top:18px}.faq{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:30px}.faq details{border:1px solid #dce7f1;border-radius:14px;padding:18px;background:#fff}.faq summary{font-weight:800;cursor:pointer}.footer{background:#031c35;color:#dbe8f5;padding:35px 0}.footerin{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.footer b{color:#fff}.notice{font-size:12px;color:#91a8bd;margin-top:25px}.mobile{display:none}
+@media(max-width:1000px){.links{display:none}.mobile{display:block}.hero-grid,.contact-grid{grid-template-columns:1fr}.plans{grid-template-columns:repeat(2,1fr)}.plans .popular{transform:none}.trust-grid{grid-template-columns:repeat(3,1fr)}.steps{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:600px){.navin{height:68px}.brand{font-size:23px}.hero{padding:55px 0}.hero-card{min-height:260px}.trust-grid,.plans,.steps,.faq{grid-template-columns:1fr}.section{padding:55px 0}.section h2{font-size:32px}.hero-actions .btn{width:100%}}
+</style>
+</head>
+<body>
+<header class="nav">
+  <div class="container navin">
+    <a class="brand" href="#"><div class="brandmark">🔐</div><div>SafeBox <span>RD</span><small>Tu espacio seguro mientras estás fuera.</small></div></a>
+    <nav class="links">
+      <a href="#planes">Planes</a><a href="#como">Cómo funciona</a><a href="#faq">Preguntas frecuentes</a><a href="#contacto">Contacto</a>
+    </nav>
+    <a class="btn btn-yellow" href="#contacto">Cotiza tu espacio</a>
+  </div>
+</header>
+
+<section class="hero">
+<div class="container hero-grid">
+  <div>
+    <div class="eyebrow">ALMACENAMIENTO TEMPORAL</div>
+    <h1>¿Te vas del país y <span>no quieres llevarte todo?</span></h1>
+    <p>En SafeBox RD guardamos tus pertenencias de forma segura, confiable y flexible mientras estás fuera.</p>
+    <div class="hero-actions"><a class="btn btn-yellow" href="#contacto">📅 Cotiza tu espacio →</a><a class="btn btn-outline" href="https://wa.me/" target="_blank">💬 Hablar por WhatsApp<div style="margin-top:16px;padding:10px 16px;border-radius:14px;background:rgba(255,255,255,.12);font-weight:700;">
+📲 WhatsApp: <a href="https://wa.me/18496519309" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;">+1 (849) 651-9309</a>
+</div></a></div>
+    <p style="font-size:14px;color:#bcd0e3">✈️ Estados Unidos &nbsp; • &nbsp; Puerto Rico &nbsp; • &nbsp; Europa &nbsp; • &nbsp; y más destinos</p>
+  </div>
+  <div class="hero-card"><div class="hero-note">Tu tranquilidad también es un destino.<br><span style="color:var(--yellow)">Guarda. Viaja. Regresa.</span></div></div>
+</div>
+</section>
+
+<section class="trust"><div class="container trust-grid">
+  <div class="trust-item"><div class="icon">🛡️</div><b>Seguridad 24/7</b><small>Cámaras, control de acceso y personal confiable.</small></div>
+  <div class="trust-item"><div class="icon">📋</div><b>Inventario detallado</b><small>Fotografiamos y registramos tus pertenencias.</small></div>
+  <div class="trust-item"><div class="icon">💧</div><b>Espacios protegidos</b><small>Condiciones adecuadas para conservar tus artículos.</small></div>
+  <div class="trust-item"><div class="icon">🚚</div><b>Recogida y entrega</b><small>Podemos buscar y entregar tus pertenencias.</small></div>
+  <div class="trust-item"><div class="icon">👤</div><b>Atención personalizada</b><small>Te acompañamos durante todo el proceso.</small></div>
+</div></section>
+
+<section class="section alt" id="planes"><div class="container">
+  <h2>Nuestros planes</h2><p class="lead">Elige el espacio que necesitas. Todos nuestros planes se cobran mensualmente en dólares.</p>
+  <div class="plans">
+    <article class="plan"><h3>Básico</h3><div class="price">US$100 <small>/mes</small></div><p>Ideal para maletas, cajas y pertenencias pequeñas.</p><ul><li>Espacio seguro</li><li>Inventario</li><li>Acceso controlado</li></ul><a class="btn btn-outline" style="color:var(--navy);border-color:var(--navy)" href="#contacto">Seleccionar</a></article>
+    <article class="plan"><h3>Familiar</h3><div class="price">US$200 <small>/mes</small></div><p>Para muebles, cajas y pertenencias de una familia.</p><ul><li>Mayor capacidad</li><li>Inventario</li><li>Soporte personalizado</li></ul><a class="btn btn-yellow" href="#contacto">Seleccionar</a></article>
+    <article class="plan popular"><div class="badge">MÁS POPULAR</div><h3>Grande</h3><div class="price">US$300 <small>/mes</small></div><p>Mayor capacidad para quienes dejan gran parte de sus pertenencias.</p><ul><li>Espacio amplio</li><li>Condiciones especiales</li><li>Soporte prioritario</li></ul><a class="btn btn-yellow" href="#contacto">Seleccionar</a></article>
+    <article class="plan"><h3>Premium</h3><div class="price">US$500 <small>/mes</small></div><p>Espacio reservado y servicio personalizado.</p><ul><li>Área exclusiva</li><li>Soporte prioritario</li><li>Mayor capacidad</li></ul><a class="btn btn-outline" style="color:var(--navy);border-color:var(--navy)" href="#contacto">Seleccionar</a></article>
+    <article class="plan"><h3>Empresarial</h3><div class="price">US$750+ <small>/mes</small></div><p>Para negocios, inventarios o grandes volúmenes.</p><ul><li>Espacio a medida</li><li>Atención dedicada</li><li>Condiciones personalizadas</li></ul><a class="btn btn-outline" style="color:var(--navy);border-color:var(--navy)" href="#contacto">Cotizar</a></article>
+  </div>
+</div></section>
+
+<section class="section" id="como"><div class="container">
+  <h2>¿Cómo funciona?</h2><p class="lead">Es fácil, rápido y seguro.</p>
+  <div class="steps">
+    <div class="step"><div class="num">1</div><h3>Reserva</h3><p>Nos dices qué necesitas guardar.</p></div>
+    <div class="step"><div class="num">2</div><h3>Recogemos</h3><p>Podemos buscar tus pertenencias o recibirlas en nuestro almacén.</p></div>
+    <div class="step"><div class="num">3</div><h3>Registramos</h3><p>Fotografiamos e inventariamos tus artículos.</p></div>
+    <div class="step"><div class="num">4</div><h3>Guardamos</h3><p>Permanecen en un espacio seguro y controlado.</p></div>
+    <div class="step"><div class="num">5</div><h3>Regresas</h3><p>Coordinamos la entrega o recogida.</p></div>
+  </div>
+</div></section>
+
+<section class="section alt" id="faq"><div class="container">
+<h2>Preguntas frecuentes</h2>
+<div class="faq">
+<details><summary>¿Por cuánto tiempo puedo guardar mis cosas?</summary><p>El servicio es mensual y puedes renovar mientras lo necesites.</p></details>
+<details><summary>¿Pueden recoger mis pertenencias?</summary><p>Sí. La recogida y entrega pueden contratarse como servicio adicional.</p></details>
+<details><summary>¿Cómo sé qué cosas tienen guardadas?</summary><p>Realizamos un inventario y registro de las pertenencias recibidas.</p></details>
+<details><summary>¿Puedo pagar en dólares?</summary><p>Sí. Los planes mostrados en la web están expresados en dólares estadounidenses.</p></details>
+</div></div></section>
+
+<section class="section contact" id="contacto"><div class="container contact-grid">
+<div><div class="eyebrow">EMPIEZA HOY</div><h2>Cuéntanos qué necesitas guardar.</h2><p style="font-size:18px;line-height:1.6;color:#c7d8e8">Déjanos tus datos y te contactaremos para calcular el espacio adecuado y darte una cotización.</p><p>📲 WhatsApp &nbsp; • &nbsp; 📧 Email &nbsp; • &nbsp; 📍 República Dominicana</p></div>
+<form class="form" onsubmit="sendForm(event)">
+<label>Nombre</label><input id="name" required placeholder="Tu nombre">
+<label>WhatsApp</label><input id="phone" required placeholder="Ej. 809-000-0000">
+<label>¿Qué quieres guardar?</label><textarea id="items" required placeholder="Ej. 8 cajas, 2 maletas, un televisor..."></textarea>
+<label>Plan aproximado</label><select id="plan"><option>Necesito orientación</option><option>Básico — US$100/mes</option><option>Familiar — US$200/mes</option><option>Grande — US$300/mes</option><option>Premium — US$500/mes</option><option>Empresarial — US$750+/mes</option></select>
+<button class="btn btn-yellow" type="submit">Solicitar cotización</button>
+<p id="msg" style="font-size:13px;color:#64748b;margin-bottom:0"></p>
+</form></div></section>
+
+<footer class="footer"><div class="container footerin"><div><b style="font-size:24px">🔐 SafeBox <span style="color:var(--yellow)">RD</span></b><div>Tu espacio seguro mientras estás fuera.</div></div><div><a href="#planes">Planes</a> &nbsp; | &nbsp; <a href="#como">Cómo funciona</a> &nbsp; | &nbsp; <a href="#contacto">Contacto</a></div></div><div class="container notice">© 2026 SafeBox RD. Sitio inicial. Los precios y condiciones deben confirmarse antes de publicar comercialmente.</div></footer>
+
+<script>
+function sendForm(e){
+ e.preventDefault();
+ const n=document.getElementById('name').value, p=document.getElementById('phone').value, i=document.getElementById('items').value, pl=document.getElementById('plan').value;
+ const msg=`Hola SafeBox RD. Soy ${n}. Quiero guardar: ${i}. Plan: ${pl}. Mi WhatsApp: ${p}.`;
+ document.getElementById('msg').textContent='Solicitud preparada. Puedes conectarla a tu WhatsApp o sistema de reservas.';
+ window.open('https://wa.me/?text='+encodeURIComponent(msg),'_blank');
+}
+</script>
+</body>
+</html>
