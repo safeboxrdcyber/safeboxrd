@@ -30,9 +30,7 @@
     <div class="eyebrow">ALMACENAMIENTO TEMPORAL</div>
     <h1>¿Te vas del país y <span>no quieres llevarte todo?</span></h1>
     <p>En SafeBox RD guardamos tus pertenencias de forma segura, confiable y flexible mientras estás fuera.</p>
-    <div class="hero-actions"><a class="btn btn-yellow" href="#contacto">📅 Cotiza tu espacio →</a><a class="btn btn-outline" href="https://wa.me/" target="_blank">💬 Hablar por WhatsApp<div style="margin-top:16px;padding:10px 16px;border-radius:14px;background:rgba(255,255,255,.12);font-weight:700;">
-📲 WhatsApp: <a href="https://wa.me/18496519309" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;">+1 (849) 651-9309</a>
-</div></a></div>
+    <div class="hero-actions"><a class="btn btn-yellow" href="#contacto">📅 Cotiza tu espacio →</a><a class="btn btn-outline" href="https://wa.me/" target="_blank">💬 Hablar por WhatsApp</a></div>
     <p style="font-size:14px;color:#bcd0e3">✈️ Estados Unidos &nbsp; • &nbsp; Puerto Rico &nbsp; • &nbsp; Europa &nbsp; • &nbsp; y más destinos</p>
   </div>
   <div class="hero-card"><div class="hero-note">Tu tranquilidad también es un destino.<br><span style="color:var(--yellow)">Guarda. Viaja. Regresa.</span></div></div>
@@ -54,7 +52,7 @@
     <article class="plan"><h3>Familiar</h3><div class="price">US$200 <small>/mes</small></div><p>Para muebles, cajas y pertenencias de una familia.</p><ul><li>Mayor capacidad</li><li>Inventario</li><li>Soporte personalizado</li></ul><a class="btn btn-yellow" href="#contacto">Seleccionar</a></article>
     <article class="plan popular"><div class="badge">MÁS POPULAR</div><h3>Grande</h3><div class="price">US$300 <small>/mes</small></div><p>Mayor capacidad para quienes dejan gran parte de sus pertenencias.</p><ul><li>Espacio amplio</li><li>Condiciones especiales</li><li>Soporte prioritario</li></ul><a class="btn btn-yellow" href="#contacto">Seleccionar</a></article>
     <article class="plan"><h3>Premium</h3><div class="price">US$500 <small>/mes</small></div><p>Espacio reservado y servicio personalizado.</p><ul><li>Área exclusiva</li><li>Soporte prioritario</li><li>Mayor capacidad</li></ul><a class="btn btn-outline" style="color:var(--navy);border-color:var(--navy)" href="#contacto">Seleccionar</a></article>
-    <article class="plan"><h3>Empresarial</h3><div class="price">US$750+ <small>/mes</small></div><p>Para negocios, inventarios o grandes volúmenes.</p><ul><li>Espacio a medida</li><li>Atención dedicada</li><li>Condiciones personalizadas</li></ul><a class="btn btn-outline" style="color:var(--navy);border-color:var(--navy)" href="#contacto">Cotizar</a></article>
+    <article class="plan"><h3>Empresarial</h3><p>Para negocios, inventarios o grandes volúmenes.</p><ul><li>Espacio a medida</li><li>Atención dedicada</li><li>Condiciones personalizadas</li></ul><a class="btn btn-outline" style="color:var(--navy);border-color:var(--navy)" href="#contacto">Cotizar</a></article>
   </div>
 </div></section>
 
@@ -89,7 +87,12 @@
 <p id="msg" style="font-size:13px;color:#64748b;margin-bottom:0"></p>
 </form></div></section>
 
-<footer class="footer"><div class="container footerin"><div><b style="font-size:24px">🔐 SafeBox <span style="color:var(--yellow)">RD</span></b><div>Tu espacio seguro mientras estás fuera.</div></div><div><a href="#planes">Planes</a> &nbsp; | &nbsp; <a href="#como">Cómo funciona</a> &nbsp; | &nbsp; <a href="#contacto">Contacto</a></div></div><div class="container notice">© 2026 SafeBox RD. Sitio inicial. Los precios y condiciones deben confirmarse antes de publicar comercialmente.</div></footer>
+<footer class="footer"><div class="container footerin"><div><b style="font-size:24px">🔐 SafeBox <span style="color:var(--yellow)">RD</span></b><div>Tu espacio seguro mientras estás fuera.</div></div><div><a href="#planes">Planes</a> &nbsp; | &nbsp; <a href="#como">Cómo funciona</a> &nbsp; | &nbsp; <a href="#contacto">Contacto</a></div></div><div class="container notice">© 2026 SafeBox RD. Sitio inicial. Los precios y condiciones deben confirmarse antes de publicar comercialmente.</div>
+<div style="text-align:center;margin:20px 0;font-size:16px;">
+📲 <strong>WhatsApp:</strong>
+<a href="https://wa.me/18496519309" target="_blank" rel="noopener">+1 (849) 651-9309</a>
+</div>
+</footer>
 
 <script>
 function sendForm(e){
@@ -97,8 +100,26 @@ function sendForm(e){
  const n=document.getElementById('name').value, p=document.getElementById('phone').value, i=document.getElementById('items').value, pl=document.getElementById('plan').value;
  const msg=`Hola SafeBox RD. Soy ${n}. Quiero guardar: ${i}. Plan: ${pl}. Mi WhatsApp: ${p}.`;
  document.getElementById('msg').textContent='Solicitud preparada. Puedes conectarla a tu WhatsApp o sistema de reservas.';
- window.open('https://wa.me/?text='+encodeURIComponent(msg),'_blank');
+ window.open('https://wa.me/18496519309?text='+encodeURIComponent(msg),'_blank');
 }
 </script>
+
+<section style="padding:32px 20px;text-align:center;">
+  <h2>¿Qué puedes guardar?</h2>
+  <p style="max-width:720px;margin:0 auto 18px;">
+    SafeBox RD está especializado exclusivamente en <strong>maletas y objetos pequeños</strong>.
+    No almacenamos muebles ni artículos voluminosos.
+  </p>
+  <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
+    <span style="padding:10px 14px;border-radius:12px;background:#f4f6f8;">🧳 Maletas</span>
+    <span style="padding:10px 14px;border-radius:12px;background:#f4f6f8;">📦 Objetos pequeños</span>
+    <span style="padding:10px 14px;border-radius:12px;background:#f4f6f8;">🔐 Espacio seguro</span>
+  </div>
+</section>
+<p style="text-align:center;font-weight:700;margin:18px;">📅 Guardado por semana · hasta 15 días</p>
+<a href="https://wa.me/18496519309?text=Hola%20SafeBox%20RD,%20quiero%20informaci%C3%B3n%20sobre%20el%20servicio."
+target="_blank" rel="noopener"
+style="position:fixed;right:18px;bottom:18px;z-index:9999;background:#25D366;color:#fff;width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;text-decoration:none;font-size:27px;box-shadow:0 4px 14px rgba(0,0,0,.25);"
+aria-label="Contactar por WhatsApp">☏</a>
 </body>
 </html>
